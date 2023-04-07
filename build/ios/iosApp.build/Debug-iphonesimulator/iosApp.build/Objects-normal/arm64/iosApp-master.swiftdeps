@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "1b63a74fbcf02701ae193eb02668bced9f22ccaf50982fac7e6e98878e876d28"
+build_start_time: [1680252784, 718163967]
+build_end_time: [1680252788, 227675914]
+inputs:
+  "/Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/iosApp/iosApp/ContentView.swift": [1680251801, 289134263]
+  "/Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/iosApp/iosApp/iOSApp.swift": [1680251801, 291112899]
