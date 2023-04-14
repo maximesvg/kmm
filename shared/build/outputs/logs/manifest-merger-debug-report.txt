@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml:2:13-83
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml:2:13-83
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml:2:13-83
+	package
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+		ADDED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml:2:13-83
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+	xmlns:android
+		ADDED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml:2:23-81
+uses-sdk
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml reason: use-sdk injection requested
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+	android:targetSdkVersion
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+		ADDED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+	android:minSdkVersion
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+		ADDED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml
+		INJECTED from /Users/msauvage-prest/AndroidStudioProjects/KotlinMultiplateformSandbox/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11941238161314477178.xml

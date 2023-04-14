@@ -6,4 +6,8 @@ class SharedClass {
         return "string value"
     }
 
+    fun doJob(): Int {
+        return 1
+    }
+
 }

@@ -9,10 +9,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.kotlinmultiplateformsandbox.Greeting
+import com.example.kotlinmultiplateformsandbox.Network
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        callAPI()
+
         setContent {
             MyApplicationTheme {
                 Surface(
@@ -23,6 +30,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
     }
 }
 
@@ -38,3 +46,12 @@ fun DefaultPreview() {
         GreetingView("Hello, Android!")
     }
 }
+
+fun callAPI() {
+    GlobalScope.launch {
+        Network().getPokemonList()
+    }
+
+}
+
+

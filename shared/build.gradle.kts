@@ -1,9 +1,11 @@
 plugins {
     kotlin("multiplatform")
-    kotlin("native.cocoapods")
     id("com.android.library")
     id("com.chromaticnoise.multiplatform-swiftpackage") version "2.0.3"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.6.21"
 }
+
+val ktor_version: String by project
 
 kotlin {
     android {
@@ -13,24 +15,26 @@ kotlin {
             }
         }
     }
-    iosX64()
-    iosArm64()
-    iosSimulatorArm64()
 
-    cocoapods {
-        summary = "Some description for the Shared Module"
-        homepage = "Link to the Shared Module homepage"
-        version = "1.0"
-        ios.deploymentTarget = "14.1"
-        podfile = project.file("../iosApp/Podfile")
-        framework {
+    listOf(
+        iosX64(),
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach {
+        it.binaries.framework {
             baseName = "shared"
         }
     }
 
-
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation("com.google.code.gson:gson:2.10.1")
+                implementation("io.ktor:ktor-client-core:$ktor_version")
+                implementation("io.ktor:ktor-client-cio:$ktor_version")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
